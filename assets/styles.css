@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    min-height: 1100px;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    height: 70px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 50px;
+    border-top: 1px solid white;
+    margin-bottom: 21px;
+}
+
+.hour {
+    position: relative;
+    /* bottom: -17px; */
+    bottom: 0px;
+    /* left: 32px; */
+    left: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    height: 50px;
+    width: 70px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.past {
+    background-color: #d3d3d3;
+    color: white;
+}
+
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+
+.saveBtn {
+    position: relative;
+    /* top: 16px; */
+    top: 0px;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+    height: 70px;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.inline {
+    display: inline-block;
+}
